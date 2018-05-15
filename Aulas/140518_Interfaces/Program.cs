@@ -20,6 +20,7 @@ namespace _140518_Interfaces
 
             AcelerarBastante(c);
 
+
             Onibus b = new Onibus();
 
             Console.WriteLine("O onibus criado, velocidade inicial: " + b.Velocidade);
@@ -33,6 +34,7 @@ namespace _140518_Interfaces
             Console.WriteLine("O onibus, velocidade atual: " + b.Velocidade);
             
 
+            
             Console.ReadKey();
 
          }
