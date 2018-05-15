@@ -15,7 +15,7 @@ namespace _140518_Interfaces
             Velocidade += 10; // throw new NotImplementedException();
         }
 
-        public void desacelerar()
+        public void Desacelerar()
         {
             Velocidade -= 6; //throw new NotImplementedException();
         }

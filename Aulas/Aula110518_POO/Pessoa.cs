@@ -35,7 +35,7 @@ namespace Aula110518_POO
         }
 
 
-        public Pessoa(string nome, string cfp)
+        public Pessoa(string nome, string cpf)
         {
             Nome = nome;
             Cpf = cpf;

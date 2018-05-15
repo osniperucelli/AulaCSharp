@@ -13,7 +13,7 @@ namespace _140518_Interfaces
 
         void Acelerar();
 
-        void desacelerar();
+        void Desacelerar();
 
 
     }

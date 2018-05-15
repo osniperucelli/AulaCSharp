@@ -10,7 +10,7 @@ namespace Aula110518_POO
     class Aluno : Pessoa
 
     {
-
+        public string Matricula { get; set; }
 
         /*atributos
 
@@ -54,7 +54,7 @@ namespace Aula110518_POO
         public override string ShowInfoPessoa()
         {
             {
-                return 'Aluno: ' + Nome + ", Cpf:  " + Cpf + ", Matricula: " + Matricula;
+                return "Aluno: " + Nome + ", Cpf:  " + Cpf + ", Matricula: " + Matricula;
             }
             //throw new System.NotImplementedException(); //a partir do momento que nao tenho conexao com banco tenho excessao//gera o famoso try catch
         }
