@@ -47,7 +47,19 @@ namespace Aula110518_POO
         {
             //this.Nome = nome;
             //Cpf = cpf;
+           
         }
+
+
+        public override string ShowInfoPessoa()
+        {
+            {
+                return 'Aluno: ' + Nome + ", Cpf:  " + Cpf + ", Matricula: " + Matricula;
+            }
+            //throw new System.NotImplementedException(); //a partir do momento que nao tenho conexao com banco tenho excessao//gera o famoso try catch
+        }
+
+
     }
 }
 

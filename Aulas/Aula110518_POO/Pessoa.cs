@@ -41,5 +41,11 @@ namespace Aula110518_POO
             Cpf = cpf;
         }
 
+
+        public abstract string ShowInfoPessoa();
+        
+        
+
+
      }
 }

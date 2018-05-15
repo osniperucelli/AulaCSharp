@@ -17,7 +17,10 @@ namespace Aula110518_POO
             Console.WriteLine("Aluno: " + a.Nome);   //esse cara é o get
              
             Aluno b = new Aluno("Juliana", "123");
-            Console.WriteLine("Aluno:  " + b.Nome + " , Cpf" + b.Cpf);
+            b.Matricula = "54321";
+
+            Console.WriteLine(b.ShowInfoPessoa());
+            //Console.WriteLine("Aluno:  " + b.Nome + " , Cpf" + b.Cpf);
 
             Aluno c = new Aluno("Jandira", "456");
             //Pessoa p = new Pessoa();
