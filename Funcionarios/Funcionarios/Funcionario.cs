@@ -14,7 +14,7 @@ namespace Funcionarios
 
         public Funcionario()
         {
-
+              
         }
 
         public string Nome { get => nome; set => nome = value; }
