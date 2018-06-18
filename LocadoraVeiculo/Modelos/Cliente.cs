@@ -20,5 +20,7 @@
         public string cidade { get; set; }
         public string pais { get; set; }
         public string habilitacao { get; set; }
+
+        public ICollection<Aluguel> Aluguel { get; set; }
     }
 }
