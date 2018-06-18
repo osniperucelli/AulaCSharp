@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Funcionarios
+namespace FuncionariosModel.Model
 {
     public class Funcionario
     {
@@ -20,5 +20,10 @@ namespace Funcionarios
         public string Nome { get => nome; set => nome = value; }
         public string Cargo { get => cargo; set => cargo = value; }
         public double Salario { get => salario; set => salario = value; }
+
+        public override string ToString()
+        {
+            return this.Nome + " - " + this.Cargo + " - " + this.Salario;
+        }
     }
 }

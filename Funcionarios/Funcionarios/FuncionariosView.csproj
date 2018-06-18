@@ -43,12 +43,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Endereco.cs" />
-    <Compile Include="Funcionario.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProgramSemOO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FuncionariosController\FuncionariosController.csproj">
+      <Project>{03057049-7b8e-45a3-a5d4-99b5391be730}</Project>
+      <Name>FuncionariosController</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FuncionariosModel\FuncionariosModel.csproj">
+      <Project>{348c3d1c-3bb1-4be2-8ac2-178d4c6fcb13}</Project>
+      <Name>FuncionariosModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Util\Util.csproj">
+      <Project>{90b3f5d0-40df-4053-8479-2f4629f729fe}</Project>
+      <Name>Util</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
